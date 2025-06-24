@@ -31,7 +31,7 @@
                </li>
 
                <li>
-                  <a class="nav__link" href="#reservar">Reservar una mesa</a>
+                  <a class="nav__link" href="#reservation">Reservar una mesa</a>
                </li>
 
                <li class="nav__link">
@@ -45,21 +45,21 @@
          <h1 class="header__title">
             <span class="header__span-accent">Café de especialidad</span>en Triple Peaks
          </h1>
-         <div class="header__description">
+         <p class="header__description">
             ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café para darte energía y motivar tu creatividad.
-         </div>
+         </p>
          <img
             src="./images/inside_coffee_shop.png"
             alt="coffeeshop"
             class="header__image"
          />
-         <footer class="header__footer">
-            <p class="footer__item">Horario:</p>
-            <p class="footer__item">Lunes a Viernes (de 10:00h a 19:00h)</p>
-            <p class="footer__item">Sábados y Domingos (de 11:00h a 18:00h)</p>
-         </footer>
-         <p class="header__paragraph">Avenida del Éxito 200, Ciudad Triple Peaks</p>
       </header>
+      <footer class="header__footer">
+         <p class="header__paragraph">Horario:</p>
+         <p class="header__paragraph">Lunes a Viernes (de 10:00h a 19:00h)</p>
+         <p class="header__paragraph">Sábados y Domingos (de 11:00h a 18:00h)</p>
+         <p class="header__paragraph header__paragraph-right">Avenida del Éxito 200, Ciudad Triple Peaks</p>
+      </footer>
 
       <main class="content">
          <section class="recipes" id="recipes">
@@ -75,7 +75,7 @@
                      referrerpolicy="strict-origin-when-cross-origin"
                      allowfullscreen>
                   </iframe>
-                  <h3 class="recipes__video-caption">Receta en Aeropress <snap class="recipes__snap-caption">~5 min</snap></h3>
+                  <div class="recipes__video-caption">Receta en Aeropress <snap>~5 min</snap></div>
                </div>
                <div class="recipes__video-item">
                   <iframe
@@ -86,11 +86,11 @@
                      referrerpolicy="strict-origin-when-cross-origin"
                      allowfullscreen>
                   </iframe>
-                  <h3 class="recipes__video-caption">Receta en cafetera francesa <snap class="video__snap-caption">~15 min</snap></h3>
+                  <div class="recipes__video-caption">Receta en cafetera francesa <snap>~15 min</snap></div>
                </div>
             </div>
          </section>
-         <section class="content__form">
+         <section class="content__form" id="reservation">
 
          </section>
       </main>
