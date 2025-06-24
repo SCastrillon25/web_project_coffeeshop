@@ -9,11 +9,11 @@
 }
 
 .header {
-   height: 100vh;
+   position: relative;
    max-height: 800px;
    min-height: 720px;
    background-color: #fff;
-   padding: 30px 80px 40px;
+   padding: 30px 0 0 80px;
    background-image: url(../images/background_header.svg);
    background-repeat: no-repeat;
    background-size: cover;
@@ -25,6 +25,7 @@
    height: 60px;
    display: flex;
    justify-content: space-between;
+   padding-right: 80px;
 }
 
 .nav__logo {
@@ -91,29 +92,29 @@
    margin-left: auto;
 }
 
-.footer {
-   margin-top: auto;
-   display: flex;
-   justify-content: space-between;
+.header__footer {
+   position: absolute;
+   bottom: 40px;
+   left: 80px;
    font-weight: 500;
    font-size: 16px;
    line-height: 20px;
    color: #838383;
 }
 
-.footer__horary {
-   margin: 0;
+.footer__item {
+  margin: 0;
 }
 
-.footer__items {
-   padding: 0;
+.header__paragraph{
    margin: 0;
-   list-style: none;
-}
-
-.header__paragraph {
-   margin: 0;
-   margin-top: auto;
+   position:absolute;
+   bottom: 40px;
+   right: 80px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   color: #838383;
 }
 
 .content {
