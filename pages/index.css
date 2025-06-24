@@ -101,23 +101,21 @@
    color: #838383;
 }
 
-.header__paragraph-right {
-   width: 306.56px;
-
-   position: relative;
-   top: -20px;
-   left: 973.44px;
-}
-
 .header__paragraph{
    margin: 0;
    display: block;
    bottom: 0;
-   right: ;
    font-weight: 500;
    font-size: 16px;
    line-height: 20px;
    color: #838383;
+}
+
+.header__paragraph-right {
+   width: 306.56px;
+   position: relative;
+   top: -20px;
+   left: 973.44px;
 }
 
 .content {
