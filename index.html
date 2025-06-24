@@ -18,13 +18,13 @@
 <body>
    <div class="page">
       <header class="header">
-         <nav class="header__nav">
-            <div class="nav__logo">
+         <nav class="nav">
                <img
-                  class="header__logo"
+                  class="nav__logo"
                   src="./images/logo_coffeeshop_dark.svg"
-                  alt="logo">
-            </div>
+                  alt="logo"
+               />
+
             <ul class="nav__links">
                <li>
                   <a class="nav__link" href="#recipes">Recetas</a>
@@ -55,14 +55,14 @@
          />
 
 
-         <footer class="header__footer">
+         <footer class="footer">
             <div>
                <p class="footer__horary">Horario:</p>
                <ul class="footer__items">
-                  <li class="horary__item">
+                  <li class="footer__item">
                      Lunes a Viernes (de 10:00h a 19:00h)
                   </li>
-                  <li class="horary__item">
+                  <li class="footer__item">
                      Sábados y Domingos (de 11:00h a 18:00h)
                   </li>
                </ul>
@@ -72,7 +72,7 @@
                </p>
          </footer>
       </header>
-      <main class="main">
+      <main class="content">
          <section class="recipes" id="recipes">
             <h2 class="recipes__title">Recetas</h2>
             <p class="recipes__subtitle">Echa un vistazo a las recetas que hemos reunido para que elabores tus propios snacks.</p>
@@ -86,7 +86,7 @@
                      referrerpolicy="strict-origin-when-cross-origin"
                      allowfullscreen>
                   </iframe>
-                  <p class="recipes__video-caption">Receta en Aeropress <snap class="video__snap-caption">~5 min</snap></p>
+                  <h3 class="recipes__video-caption">Receta en Aeropress <snap class="recipes__snap-caption">~5 min</snap></h3>
                </div>
                <div class="recipes__video-item">
                   <iframe
@@ -97,9 +97,12 @@
                      referrerpolicy="strict-origin-when-cross-origin"
                      allowfullscreen>
                   </iframe>
-                  <p class="recipes__video-caption">Receta en cafetera francesa <snap class="video__snap-caption">~15 min</snap></p>
+                  <h3 class="recipes__video-caption">Receta en cafetera francesa <snap class="video__snap-caption">~15 min</snap></h3>
                </div>
             </div>
+         </section>
+         <section class="content__form">
+
          </section>
       </main>
 
