@@ -111,7 +111,7 @@
    color: #838383;
 }
 
-.header__paragraph-right {
+footer p:nth-child(4) {
    width: 306.56px;
    position: relative;
    top: -20px;
@@ -179,8 +179,14 @@
    color: #fff;
 }
 
-
-
+@media(min-width:1441px){
+   footer p:nth-child(4) {
+      width: 306.56px;
+      position: relative;
+      top: -20px;
+      left: 1053.44px;
+   }
+}
 
 
 
