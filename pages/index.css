@@ -297,6 +297,12 @@
    content: url(../images/check.svg);
 }
 
+.form__input:focus, .form__button:focus {
+   outline: none;
+   border-radius: 2px;
+   border: solid red;
+}
+
 
 
 
