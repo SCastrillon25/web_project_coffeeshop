@@ -5,7 +5,8 @@
 @import url(../blocks/content.css);
 @import url(../blocks/recipes.css);
 @import url(../blocks/recipes__videos.css);
-@import url(../blocks/recipes__video-item.css);
+@import url(../blocks/recipe__video-item.css);
+@import url(../blocks/recipes__iframe);
 @import url(../blocks/recipes__video-caption.css);
 @import url(../blocks/reservation.css);
 @import url(../blocks/form.css);
