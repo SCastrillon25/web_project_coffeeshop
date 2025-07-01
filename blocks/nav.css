@@ -5,13 +5,10 @@
 }
 
 .nav__logo {
-   position: relative;
-   left: -50px;
-}
-
-.logo {
    width: 105px;
    height: 39px;
+   position: relative;
+   left: -50px;
 }
 
 .nav__links {
